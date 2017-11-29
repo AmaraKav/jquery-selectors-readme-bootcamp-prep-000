@@ -4,6 +4,20 @@ function paragraphSelector(){
 }
 
 function lastImageSelector(){
-  var lastImage = $('img:last')
+  var lastImage = $('img:last');
   return lastImage;
+}
+
+function ninjaBabySelector(){
+  var babyNinja = $('#baby-ninja');
+  return babyNinja;
+}
+
+function divSelector(){
+  var divs = $('div');
+  return divs;
+}
+
+function firstListItem(){
+  var firstItem = $('#pic-list li:first-child')
 }
