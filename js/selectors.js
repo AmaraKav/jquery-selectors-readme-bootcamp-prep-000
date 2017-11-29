@@ -5,4 +5,5 @@ function paragraphSelector(){
 
 function lastImageSelector(){
   var lastImage = $('img:last-Child')
+  return lastImage;
 }
